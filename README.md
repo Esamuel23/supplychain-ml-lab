@@ -5,7 +5,7 @@ This repository contains a lightweight machine learning workflow for forecasting
 
 The goal is to demonstrate a clear, reproducible forecasting pipeline that can scale to real-world data when available.
 
-Project Summary
+-Project Summary-
 
 The forecasting workflow includes:
 
@@ -28,7 +28,11 @@ Visualizing performance and forecast horizons
 
 The notebook is self-contained and can be run end-to-end without external data.
 
-Motivation
+This project also includes a Power Bi dashboard where the data was exported from the notebook into 
+
+a CSV file that can be plugged into Power Bi, this file is in the dashboard folder.
+
+-Motivation-
 
 Demand forecasting is a core requirement in supply chain operations. Even simple forecasting pipelines reveal the constraints and considerations that appear in real production systems:
 
@@ -44,18 +48,17 @@ Understanding forecast error and bias through residual analysis
 
 This project establishes the foundation for a broader set of supply chain ML tools.
 
-Methods and Approach
-Data
+-Methods and Approach Data-
 
 Synthetic daily demand is generated to simulate:
 
-A constant base level
+A constant base level,
 
-A mild upward trend
+A mild upward trend,
 
-Weekly seasonality
+Weekly seasonality,
 
-Random noise
+Random noise.
 
 Although simulated, the data closely follows patterns found in warehousing, retail, and distribution demand streams.
 
@@ -109,15 +112,17 @@ Matplotlib
 
 VS Code + Jupyter Notebook
 
+Power Bi
+
 Next Steps
 
 Planned enhancements for this lab include:
 
-Forecasting multiple SKUs simultaneously
+Forecasting multiple SKUs simultaneously(Done)
 
-Adding holiday and promotion effects
+Adding holiday and promotion effects(Done)
 
-Testing gradient boosting models
+Testing gradient boosting models(Done)
 
 Packaging feature engineering and forecasting logic into reusable modules
 
