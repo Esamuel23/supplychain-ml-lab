@@ -1,0 +1,35 @@
+# --- Python environment ---
+sc-ml-env/
+venv/
+env/
+*.pyc
+__pycache__/
+*/__pycache__/
+
+# --- VS Code ---
+.vscode/
+
+# --- Jupyter Notebook junk ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# --- Python build/cache ---
+build/
+dist/
+*.egg-info/
+
+# --- Logs ---
+*.log
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Power BI auto files (optional) ---
+*.pbiviz
+*.pbitool.json
+
+# --- Export folders (keep CSVs) ---
+dashboard/~$*
+notebooks/exports/~$*
+
